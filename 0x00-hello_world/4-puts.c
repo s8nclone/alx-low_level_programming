@@ -4,8 +4,9 @@
  * main - entry point
  *
  * Description: using the main function
- * this program prints "programmig is like building a multilingual puzzle"
- * return: Always 0
+ * this program prints "programming is like 
+ * building a multilingual puzzle"
+ * return: Always 0 (success)
  */
 int main(void)
 {
