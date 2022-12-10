@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - entry point, print string in the print function
+ * main - entry point
  *
  * Description : using the main function
  * this program prints "with proper grammar, but
