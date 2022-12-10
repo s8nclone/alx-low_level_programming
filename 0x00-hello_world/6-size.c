@@ -2,7 +2,7 @@
 
 /**
  * main - print the string in the put function
- * 
+ *
  * Description: using the main function
  * this program prints the sizes of various types
  * Return: Always 0
