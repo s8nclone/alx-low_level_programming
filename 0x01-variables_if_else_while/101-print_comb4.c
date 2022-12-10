@@ -27,7 +27,7 @@ int main(void)
 
 			if (c != 789)
 			{
-				putchar(';');
+				putchar(',');
 				putchar(' ');
 			}
 		}
