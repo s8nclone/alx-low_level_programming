@@ -4,7 +4,7 @@
  * main - entry point
  *
  * Description: using the main function
- * this program prints "programming is like 
+ * this program prints "programming is like
  * building a multilingual puzzle"
  * return: Always 0 (success)
  */
