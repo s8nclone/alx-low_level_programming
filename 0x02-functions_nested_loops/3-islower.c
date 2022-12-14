@@ -4,18 +4,19 @@
  * _islower - entry point
  *
  * Description: checks for lowercase
+ * @c : character to check the case
  *
- * Return: Always 0
+ * Return: 0 or 1
  */
 int _islower(int c)
 {
 
 	if (c >= 'a' && c <= 'z')
 	{
-		return(1);
+		return (1);
 	}
-	else 
+	else
 	{
-		return(0);
+		return (0);
 	}
 }
