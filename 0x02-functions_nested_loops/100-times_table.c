@@ -19,7 +19,7 @@ void print_times_table(int n)
 
 	while (a <= n)
 	{
-		for (b = 0; b <= n; b++);
+		for (b = 0; b <= n; b++)
 		{
 			ptt = a * b;
 			if (b == 0)
@@ -32,7 +32,7 @@ void print_times_table(int n)
 				_putchar(' ');
 				_putchar('0' + ptt);
 			}
-			else if
+			else if (ptt < 100)
 			{
 				_putchar(' ');
 				_putchar('0' + ptt / 10);
