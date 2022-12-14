@@ -11,9 +11,20 @@
  */
 void print_to_98(int n)
 {
-	for (n = 0; n <= 98; n++)
+	if (n >= 98)
 	{
-		_putchar(n);
+		while (n > 98)
+		{
+			_putchar(n);
+			n--;
+		}
 	}
-	_putchar('\n');
+	else
+	{
+		while (n < 98)
+		{
+			_putchar(n);
+			n++;
+		}
+	}
 }
