@@ -24,7 +24,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%lu, ", b);
+			printf("%lu, ", a);
 			next = a + b;
 			a = b;
 			b = next;
