@@ -12,4 +12,5 @@ int _isalpha(int c);
 int print_sign(int n);
 	/* _abs */
 int _abs(int);
-
+	/* print_last_digit */
+int print_last_digit(int);
