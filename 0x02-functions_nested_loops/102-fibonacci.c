@@ -16,7 +16,7 @@ int main(void)
 	long b = 2;
 	long next;
 
-	for (i = 0; i < 50; i++)
+	for (i = 0; i < n; i++)
 	{
 		if (i == 49)
 		{
