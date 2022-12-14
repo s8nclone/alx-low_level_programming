@@ -5,7 +5,8 @@
  *
  * Description: adds two integers and returns result
  *
- * @a & @b : parametrs to add
+ * @a : parameters to add
+ * @b : parameter to add to a
  *
  * Return: Always 0
  */
