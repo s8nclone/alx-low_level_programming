@@ -27,9 +27,9 @@ int main(void)
 			printf("%lu, ", b);
 			next = a + b;
 			a = b;
-			b + next;
+			b = next;
 		}
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
