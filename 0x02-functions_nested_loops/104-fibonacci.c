@@ -10,7 +10,7 @@
  */
 int main(void)
 {
-	int count, over;
+	int count;
 	unsigned long a = 0, b = 1, sum;
 	unsigned long fa_1, fa_2, fb_1, fb_2;
 	unsigned long h1, h2;
@@ -29,7 +29,7 @@ int main(void)
 	fa_2 = a % 10000000000;
 	fb_2 = b % 10000000000;
 
-	for (count = 93; count , 99; count++)
+	for (count = 93; count < 99; count++)
 	{
 		h1 = fa_1 + fb_1;
 		h2 = fa_2 + fb_2;
