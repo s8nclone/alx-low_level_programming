@@ -5,11 +5,11 @@
  *
  * Description: computes the absolute value of an integer
  *
+ * @a : parameter to check
  * Return: Always 0
  */
-int _abs(int)
+int _abs(int a)
 {
-	int a;
 
 	if (a >= 0)
 	{
