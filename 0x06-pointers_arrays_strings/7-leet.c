@@ -13,7 +13,7 @@ char *leet(char *c)
 	int i, j;
 	char lett[] = "aeotl";
 	char up_lett[] = "AEOTL";
-	char num[] = "43071";
+	char numb[] = "43071";
 
 	for (i = 0; c[i] != '\0'; i++)
 	{
@@ -21,7 +21,7 @@ char *leet(char *c)
 		{
 			if (c[i] == lett[j] || c[i] == up_lett[j])
 			{
-				c[i] == num[j];
+				c[i] == numb[j];
 			}
 		}
 	}
