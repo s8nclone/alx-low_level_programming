@@ -10,20 +10,20 @@
  */
 char *leet(char *c)
 {
-	int i, j;
-	char lett[] = "aeotl";
-	char up_lett[] = "AEOTL";
-	char numb[] = "43071";
+	int i = 0, j;
+	char sub[10] = {'4', '4', '3', '3', '0', '0', '7', '7', '1', '1'};
+	char str[10] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
 
-	for (i = 0; c[i] != '\0'; i++)
+	while (c[i])
 	{
-		for (j = 0; lett[j] != '\0'; j++)
+		for (j = 0; j < 10; j++)
 		{
-			if (c[i] == lett[j] || c[i] == up_lett[j])
+			if (c[i] == str[j])
 			{
-				c[i] == numb[j];
+				c[i] = sub[j];
 			}
 		}
+		i++;
 	}
 	return (c);
 }
