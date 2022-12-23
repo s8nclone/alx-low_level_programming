@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+/**
+ * main - entry function
+ */
 int main(void)
 {
 int n;
