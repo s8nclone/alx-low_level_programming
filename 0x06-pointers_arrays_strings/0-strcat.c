@@ -4,11 +4,12 @@
  * _strcat - concatenates two strings
  *
  * @dest: pointer to destination string
+ *
  * @src: pointer to source string
  *
  * Description: function that concatenates two strings
  *
- * Return: void
+ * Return: pointer to the resulting string
  */
 char *_strcat(char *dest, char *src)
 {
