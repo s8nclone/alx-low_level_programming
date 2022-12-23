@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * string_toupper - entry point function 
+ * string_toupper - entry point function
  * @s: string
  *
  * Description: function that changes all lowercase
