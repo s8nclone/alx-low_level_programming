@@ -3,8 +3,8 @@
 /**
  * string_toupper - entry point function 
  * @s: string
- * 
- * Description: function that changes all lowercase 
+ *
+ * Description: function that changes all lowercase
  * letters of a string to uppercase
  *
  * Return: string
