@@ -3,13 +3,13 @@
 /**
  * _strncat - function
  *
- * @dest- pointer destination
+ * @dest: pointer destination
  * @src: pointer source
  * @n: number of bytes
  *
  * Description: function that concatenates two strings
  *
- * Return: void
+ * Return: a pointer to the resulting string
  */
 char *_strncat(char *dest, char *src, int n)
 {
