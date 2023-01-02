@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_memcpy - function name
+ * *_memset - function name
  * @s: pointer to constant
  * @b: constant byte
  * @n: max bytes
