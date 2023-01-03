@@ -1,5 +1,4 @@
 #include "main.h"
-#define NULL 0
 
 /**
  * *_strstr - function name
@@ -16,7 +15,7 @@ char *_strstr(char *haystack, char *needle)
 	char *h = haystack;
 	char *n = needle;
 
-	while(*h)
+	while (*h)
 	{
 		n = needle;
 		h = haystack;
