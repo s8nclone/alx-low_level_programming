@@ -16,10 +16,10 @@ void print_number(int n)
 	z = n;
 	if (n < 0)
 	{
-		_putchar(45);
+		_putchar('-');
 		z = -n;
 	}
-	if (z / 10)
+	if ((z / 10) > 0)
 	{
 		print_number(z / 10);
 	}
