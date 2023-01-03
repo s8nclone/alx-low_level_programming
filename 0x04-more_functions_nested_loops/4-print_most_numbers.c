@@ -3,7 +3,7 @@
 /**
  * print_most_numbers - function name
  *
- * Description: prints the numbers 0 - 9 
+ * Description: prints the numbers 0 - 9
  * followed by a new line
  *
  * Return: Always 0
