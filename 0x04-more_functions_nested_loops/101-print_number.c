@@ -11,30 +11,30 @@
 
 void print_number(int n)
 {
-	unsigned int x, y;
+	unsigned int num, num2;
 	int i;
-	int z = 1;
+	int aux = 1;
 
 	if (n < 0)
 	{
 		n = n * -1;
-		_putchar('-');
+		_putchhar('-');
 	}
-	x = n;
-	y = x;
-	if (x > 9)
+	num = n;
+	num2 = num;
+	if (num > 9)
 	{
-		while (x >= 10)
+		while (num >= 10)
 		{
-			z = z * 10;
-			x = x / 10;
+			aux = aux * 10;
+			num = num / 10;
 		}
-		_putchar((y / z) + '0');
-		z = z / 10;
+		_putchar((num2 / aux) + '0');
+		aux = aux / 10;
 
-		for (i = z; i >= 1; i = i / 10)
-			_putchar((y / i) % 10 + '0');
+		for (i = aux; i >= 1; i = i / 10)
+			_putchar((num2 / i) % 10 + '0');
 	}
 	else
-		_putchar(x + '0');
+		_putchar(num + '0');
 }
