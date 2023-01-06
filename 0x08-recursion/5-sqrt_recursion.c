@@ -16,13 +16,13 @@ int squarert(int n, int val)
 	{
 		return (val);
 	}
-	else if (val * val > n)
+	else if (val * val < n)
 	{
-		return (-1);
+		return (squarert(n, val + 1));
 	}
 	else
 	{
-		return (squarert(n, val + 1));
+		return (-1);
 	}
 }
 
