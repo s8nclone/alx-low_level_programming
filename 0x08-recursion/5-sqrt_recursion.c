@@ -20,6 +20,10 @@ int squarert(int n, int val)
 	{
 		return (squarert(n, val + 1));
 	}
+	else if (val + val > n)
+	{
+		return (squarert(n, val - 1));
+	}
 	else
 	{
 		return (-1);
