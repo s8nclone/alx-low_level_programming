@@ -5,7 +5,7 @@
  * @s1: variable 1
  * @s2: variable 2
  *
- * Description: copares two strings and returns 1 if
+ * Description: compares two strings and returns 1 if
  * the string can be considered identical, otherwise 0
  *
  * Return: Always 0
