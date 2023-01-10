@@ -3,7 +3,7 @@
 /**
  * main - function
  * @argc: int
- * @argc: list
+ * @argv: list
  *
  * Description: prints the number of arguments passed
  *
@@ -14,6 +14,6 @@ int main(int argc, char *argv[])
 {
 /* to suppress unused varaible warning */
 	argv = argv;
-	printf("%s\n", argc - 1);
+	printf("%d\n", argc - 1);
 	return (0);
 }
