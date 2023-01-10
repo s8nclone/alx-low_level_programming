@@ -13,11 +13,10 @@
 
 int _intcheck(char *n)
 {
-	int i, len;
+	int i;
 
 	i = 0;
-	len = strlen(n);
-	while (i < len)
+	while (n[i] != '\0')
 	{
 		if (n[i] < '0' || n[i] > '9')
 		{
