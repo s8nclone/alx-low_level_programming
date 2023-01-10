@@ -54,7 +54,7 @@ int main(int argc, char *argv[])
 		b = _intcheck(argv[a]);
 		if (b == -1)
 		{
-			printf("error\n");
+			printf("Error\n");
 			return (1);
 		}
 		sum += b;
