@@ -66,7 +66,7 @@ void print_string(va_list arg)
 
 	if (str == NULL)
 	{
-		printf("nil");
+		printf("(nil)");
 		return;
 	}
 
@@ -97,11 +97,11 @@ void print_all(const char * const format, ...)
 
 	va_start(args, format);
 
-	while (format && (*(format + 1)))
+	while (format && (*(format + i)))
 	{
 		j = 0;
 
-		while (j < 4 && (*(format + 1) != *(funcc[j].d)))
+		while (j < 4 && (*(format + i) != *(funcc[j].d)))
 			j++;
 
 		if (j < 4)
