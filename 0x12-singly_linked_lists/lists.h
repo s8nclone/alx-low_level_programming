@@ -9,7 +9,7 @@
  * @len: length of string
  * @next: points to next node
  *
- * Description: sinly linked list node structures
+ * Description: singly linked list node structures
  * for ALX 
  */
 
