@@ -13,8 +13,7 @@
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	int file;
-	ssize_t noflett;
+	int file, noflett;
 	char *text;
 
 	if (!filename)
