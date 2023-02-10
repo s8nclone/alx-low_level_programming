@@ -5,7 +5,7 @@
  * @filename: file
  * @letters: no of letters it should read and print
  *
- * @Description: reads a text file and prints it to the
+ * Description: reads a text file and prints it to the
  * POSIX standard output
  *
  * Return: actual no of letters it could read and print
