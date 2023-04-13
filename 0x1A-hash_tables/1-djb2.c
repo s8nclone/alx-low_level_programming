@@ -5,7 +5,7 @@
  * @str: string
  *
  * Description: generates a random number through a given
- * 		string (hash number)
+ *		string (hash number)
  *
  * Return: hash number
  */
