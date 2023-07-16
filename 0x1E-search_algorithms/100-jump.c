@@ -11,7 +11,7 @@
   *         Otherwise, the first index where the value is located.
   *
   * Description: Searches for a value in a sorted array of integers and
-  * 		 Prints a value every time it is compared in the array.
+  *		 Prints a value every time it is compared in the array.
   *              Uses the square root of the array size as the jump step.
   */
 
