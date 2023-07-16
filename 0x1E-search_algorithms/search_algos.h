@@ -24,7 +24,7 @@ typedef struct listint_s
 } listint_t;
 
 /**
- * struct skiplist_s - function 
+ * struct skiplist_s - function
  *
  * @n: Integer
  * @index: Index of the node in the list
